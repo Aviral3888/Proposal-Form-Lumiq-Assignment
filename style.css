@@ -1,0 +1,613 @@
+*{
+    margin: 0; 
+    padding: 15px;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*             Navbar                */
+/* Image / Logo */
+
+img{
+    height: 120px;
+    width: 220px;
+    padding: 0px;
+}
+
+/*              Section 1              */
+
+/*      Heading      */
+
+.heading{
+    margin: 0 auto;
+    margin-top: -30px;
+    width: 180px;
+    font-size: 23px;
+}
+
+/*      Content      */
+
+.section__1{
+    margin-bottom: 20px;
+}
+
+.section1__content{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+
+/*      List      */
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/*              Section 2             */
+
+.section__2{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+}
+
+.section__2__grid__container{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(12,1fr);
+    padding: 0;
+ }
+
+/*         Grid Row      */
+
+.grid__row{
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px 1px 1px 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* Individual Grid Items */
+
+/* Row 1 */
+.item1{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 5;   
+    justify-content: center;
+    border: 2px solid black;
+    border-bottom: 1px solid ;    
+}
+
+.item2, .item6, .item8, .item10, .item12, .item14, .item18,
+.item20, .item24{
+    border-left: 2px solid black;
+}
+
+.item5, .item17, .item7, .item9, .item11, .item13, .item19, .item21{
+    border-right: 2px solid black;
+}
+
+.item7, .item9, .item11, .item13, .item19, .item21{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+/* Row 10 */
+.item22{
+    grid-row-start: 10;
+    grid-row-end: 12;
+    border-left: 2px solid black;
+}
+
+.item23{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 12;
+    border-right: 2px solid black;
+}
+
+/* Row 11 */
+.item25{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    border-right: 2px solid black;
+}
+
+/* Square Checkbox */
+.square{
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin-top: 3px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* List */
+.grid__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__list__item{
+    margin-right: 10px;
+}
+
+/* Photo Section */
+
+.section2__photo{
+    height: 220px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 40px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.section2__photo__text__center{
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.text__lower{
+    margin-top: 20px;
+}
+
+/* Section 2 Row 12 aand Row 13 Grid  */
+
+.section2__grid__container{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.grid__row__container2{
+     border: 1px solid black;
+     padding: 5px 50px 5px 10px;
+     font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     padding-left: 10px;
+}
+
+.item26, .item27{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item26{
+    border-left: 2px solid black;
+    border-bottom: none;
+}
+
+.item27{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: none;
+}
+
+.item28, .item29{
+    border: 2px solid black;
+}
+
+.item28{
+    border-right: none;
+}
+
+/*
+
+    Section 2 Ends 
+
+*/
+
+
+/*
+
+    Section 3 starts 
+
+*/
+
+/* heading */
+
+.section__3__heading{
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.heading__text{
+    background-color: rgb(245,130,32);
+    text-align: center;
+    padding: 2px;
+    font-size: 25px;
+}
+
+.section__3__subheading{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+/* Details text Name:: */
+
+.h3_3, .title__text{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.details__title{
+    padding-left: 10px;
+}
+
+/* Container */
+
+.section__3__grid__container{
+    height: 128px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.9fr 0.5fr 0.5fr 0.5fr 2.3fr;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+/* Grid Items */
+
+.section__3__grid__item{
+    margin: 0;
+    font-size: 15px;
+    padding: 1px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/* Checkbox */
+
+.section__3__checkbox{
+    height: 18px;
+    width: 18px;
+    border: 2px solid black;
+    padding: 0;
+    margin-right: 10px;
+}
+
+
+.serial_no_box{
+    margin-top: -5px;
+    padding: 0;
+}
+
+.checkbox__text{
+    display: flex;
+}
+
+.person__name{
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.name{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    font-size: 20px;
+    display: flex;
+}
+
+.middle__name{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+}
+
+.last__name{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+}
+
+span{
+    margin-left: 2px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.input__text__area{
+    width: 100%;
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+/* 
+1.4 Gender 
+1.5 DOB
+1.6 Marital Status 
+
+*/
+.gender__text{
+    margin-bottom: 20px;
+}
+
+.middle{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+.inputmiddle{
+    width: 300px;
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.inputmiddle_1{
+    width: 395px;
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.content__h3{
+    padding: 0;
+    margin-left: 10px;
+}
+.content__p{
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.text__space__5pd{
+    padding-right:15px ;
+}
+
+.content__p__bold{
+    padding: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* 1.7 Address Section */
+
+.section__3__grid__container__2{
+    height: 170px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 38fr;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.address__sec__item{
+    margin: 0;
+    font-size: 15px;
+    padding: 1px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.serial_no_box_1_7{
+    padding: 0;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.address__sec__text{
+    display: flex;
+}
+
+.input__line__1, .input__line__2, .input__line__3, 
+.input__line__4, .input__line__5{
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.input__line__1{
+    width: 935px;
+}
+.input__line__2{
+    width: 1113px;
+}
+.input__line__3{
+    width: 1165px;
+}
+.input__line__4{
+    width: 1128px;
+}
+.input__line__5{
+    width: 1306px;
+}
+
+.italics__line__between__sections{
+    text-align: center;
+    font-style: italic; 
+    font-weight: 600;
+}
+
+
+
+/*  1.8 Education/ Professional Section  */
+
+.input__line__6{
+    width: 74%;
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.serial_no_box_1_8{
+    padding-right: 10px;
+}
+
+
+
+/*  1.9 Occupation Section  */
+
+.occupation__section{
+    margin-bottom: 0;
+}
+
+.serial_no_box_1_9{
+    padding-right: 5px;
+}
+
+.input__line__7{
+    width: 33.5%;
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.italics__line__padding{
+    padding-top: -10px;
+}
+
+.section__3__grid__container__3{
+    height: 170px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.15fr 1.6fr ;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+}
+.occupation__sec__item{
+    margin: 0;
+    font-size: 15px;
+    padding: 1px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.occupation__sec__text__full {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+}
+.occupation__sec__text{
+    display: flex;
+}
+
+.input__line__8, .input__line__9, .input__line__10, .input__line__11,
+.input__line__12, .input__line__13, .input__line__14, .input__line__15
+{
+    height: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.input__line__8{
+    width: 43%;
+}
+
+.input__line__9{
+    width: 78%;
+}
+
+.input__line__10{
+    width: 37%;
+}
+
+.input__line__11{
+    width: 81%;
+}
+
+/*  1.10 Annual Income Section  */
+
+
+.section__3__grid__container__4{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr ;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.serial_no_box_1_10{
+    padding-right: 5px;
+}
+
+.annual__sec__item{
+    margin: 0;
+    font-size: 18px;
+    padding: 1px;
+    font-weight: 600;
+    padding-left: 2px;
+}
+
+.annual__sec__text{
+    display: flex;
+}
+.annual__sec__text__full{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.serial_no_box_sub{
+    margin-left: 40px;
+}
+
+.input__line__12{
+    width: 60%;
+}
+.input__line__13{
+    width: 87%;
+}
+.input__line__14{
+    width: 79.5%;
+}
+.input__line__15{
+    width: 69%;
+}
